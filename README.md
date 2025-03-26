@@ -1,9 +1,6 @@
-# StegOnline
-[![Known Vulnerabilities](https://snyk.io/test/github/Ge0rg3/StegOnline/badge.svg)](https://snyk.io/test/github/Ge0rg3/StegOnline)
-![WTFPL](http://www.wtfpl.net/wp-content/uploads/2012/12/wtfpl-badge-3.png, "WTFPL")
+# StegAll
 
 A web-based, enhanced and open-source port of StegSolve. Upload any image file, and the relevant options will be displayed.
-View a live demo at [http://stegonline.georgeom.net/](http://stegonline.georgeom.net/).
 
 ## Features:
 * Browse through the 32 bit planes of the image
@@ -28,8 +25,8 @@ View a live demo at [http://stegonline.georgeom.net/](http://stegonline.georgeom
 ## Installation
 #### Dev Environment
 ```
-git clone https://github.com/Ge0rg3/StegOnline.git
-cd StegOnline
+git clone https://github.com/Amansinghtomar12/StegAll.git
+cd StegAll
 (sudo) npm install -g @angular/cli
 (sudo) npm install -i
 (sudo) ng serve --open
@@ -38,13 +35,13 @@ cd StegOnline
 This will install into the StegOnline/ folder of your site
 ```
 cd ~/Documents #Or wherever you want to store it
-git clone https://github.com/Ge0rg3/StegOnline.git
-cd StegOnline
+git clone https://github.com/Amansinghtomar12/StegAll.git
+cd StegAll
 (sudo) npm install -g @angular/cli
 (sudo) npm install -i
-(sudo) ng build --prod --base-href=/StegOnline/ --aot=false --build-optimizer=false --output-path=/var/www/html/StegOnline
+(sudo) ng build --prod --base-href=/StegAll/ --aot=false --build-optimizer=false --output-path=/var/www/html/StegAll
 ```
-Inside of the newly created /var/www/html/StegOnline folder, create the following .htaccess file:
+Inside of the newly created /var/www/html/StegAll folder, create the following .htaccess file:
 ```
 Options +FollowSymLinks
 RewriteCond %{REQUEST_FILENAME} !-f
